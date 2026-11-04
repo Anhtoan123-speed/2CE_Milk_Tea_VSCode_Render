@@ -1,0 +1,223 @@
+[
+  {
+    "id": "req-1793668289853",
+    "user_id": "usr-nv15",
+    "shift_id": 14,
+    "reason": "Việc gia đình",
+    "status": "APPROVED",
+    "replacement_user_id": "usr-nv18",
+    "created_at": "2026-11-03T01:11:29.853Z",
+    "user": {
+      "id": "usr-nv15",
+      "code": "NV15",
+      "email": "khang.nv15@gmail.com",
+      "full_name": "Phan Minh Khang",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "PK",
+      "pass": "658291"
+    },
+    "shift": {
+      "id": 14,
+      "day_key": 7,
+      "shift_key": "chieu_7",
+      "name": "Ca Chiều",
+      "start_time": "13:00:00",
+      "end_time": "17:00:00",
+      "duration": 4,
+      "quotas": {
+        "bep": {
+          "min": 1,
+          "max": 1
+        },
+        "phache": {
+          "min": 1,
+          "max": 2
+        },
+        "phucvu": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "allowed_departments": [
+        "Bếp",
+        "Pha chế"
+      ]
+    },
+    "replacement": {
+      "id": "usr-nv18",
+      "code": "NV18",
+      "email": "nhi.nv18@gmail.com",
+      "full_name": "Đoàn Yến Nhi",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "DN",
+      "pass": "561029"
+    },
+    "replacement_note": "Nhân sự đã đăng ký ca này nhưng chưa được xếp",
+    "resolved_at": "2026-11-03T01:11:46.843Z"
+  },
+  {
+    "id": "req-1793668065624",
+    "user_id": "usr-nv10",
+    "shift_id": 1,
+    "reason": "Trùng lịch thi đột xuất tại trường đại học",
+    "status": "APPROVED",
+    "replacement_user_id": "usr-nv18",
+    "created_at": "2026-11-03T01:07:45.624Z",
+    "user": {
+      "id": "usr-nv10",
+      "code": "NV10",
+      "email": "tu090906@gmail.com",
+      "full_name": "Đỗ Phương Thảo",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "DT",
+      "pass": "571829"
+    },
+    "shift": {
+      "id": 1,
+      "day_key": 1,
+      "shift_key": "sang_1",
+      "name": "Ca Sáng",
+      "start_time": "09:00:00",
+      "end_time": "13:00:00",
+      "duration": 4,
+      "quotas": {
+        "phache": {
+          "min": 1,
+          "max": 1
+        },
+        "bep": {
+          "min": 0,
+          "max": 0
+        },
+        "phucvu": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "allowed_departments": [
+        "Pha chế"
+      ]
+    },
+    "replacement": {
+      "id": "usr-nv18",
+      "code": "NV18",
+      "email": "nhi.nv18@gmail.com",
+      "full_name": "Đoàn Yến Nhi",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "DN",
+      "pass": "561029"
+    },
+    "replacement_note": "Nhân sự đã đăng ký ca này nhưng chưa được xếp",
+    "resolved_at": "2026-11-03T01:07:45.649Z"
+  },
+  {
+    "id": "req-1793667157151",
+    "user_id": "usr-nv12",
+    "shift_id": 11,
+    "reason": "Cấn lịch học",
+    "status": "APPROVED",
+    "replacement_user_id": "usr-nv10",
+    "created_at": "2026-11-03T00:52:37.151Z",
+    "user": {
+      "id": "usr-nv12",
+      "code": "NV12",
+      "email": "tuyet.nv12@gmail.com",
+      "full_name": "Mai Ánh Tuyết",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "MT",
+      "pass": "491823"
+    },
+    "shift": {
+      "id": 11,
+      "day_key": 4,
+      "shift_key": "chieu_4",
+      "name": "Ca Chiều",
+      "start_time": "13:00:00",
+      "end_time": "17:00:00",
+      "duration": 4,
+      "quotas": {
+        "bep": {
+          "min": 1,
+          "max": 1
+        },
+        "phache": {
+          "min": 1,
+          "max": 2
+        },
+        "phucvu": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "allowed_departments": [
+        "Bếp",
+        "Pha chế"
+      ]
+    },
+    "replacement": {
+      "id": "usr-nv10",
+      "code": "NV10",
+      "email": "tu090906@gmail.com",
+      "full_name": "Đỗ Phương Thảo",
+      "department": "Pha chế",
+      "role": "Employee",
+      "avatar_text": "DT",
+      "pass": "571829"
+    },
+    "resolved_at": "2026-11-03T00:52:55.814Z"
+  },
+  {
+    "id": "req-1793667090276",
+    "user_id": "usr-nv08",
+    "shift_id": 20,
+    "reason": "Nhập viện",
+    "status": "REJECTED",
+    "replacement_user_id": null,
+    "created_at": "2026-11-03T00:51:30.278Z",
+    "user": {
+      "id": "usr-nv08",
+      "code": "NV08",
+      "email": "linh.nv08@gmail.com",
+      "full_name": "Bùi Khánh Linh",
+      "department": "Phục vụ",
+      "role": "Employee",
+      "avatar_text": "BL",
+      "pass": "610293"
+    },
+    "shift": {
+      "id": 20,
+      "day_key": 6,
+      "shift_key": "toi_6",
+      "name": "Ca Tối",
+      "start_time": "17:00:00",
+      "end_time": "23:00:00",
+      "duration": 6,
+      "quotas": {
+        "bep": {
+          "min": 2,
+          "max": 2
+        },
+        "phucvu": {
+          "min": 2,
+          "max": 2
+        },
+        "phache": {
+          "min": 2,
+          "max": 3
+        }
+      },
+      "allowed_departments": [
+        "Bếp",
+        "Phục vụ",
+        "Pha chế"
+      ]
+    },
+    "note": "Quản lý từ chối yêu cầu.",
+    "resolved_at": "2026-11-03T00:51:44.263Z"
+  }
+]
